@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Home</title>
+
+	<!-- Main Styles -->
+	<link rel="stylesheet" href="assets/styles/style.min.css">
+	
+	<!-- Material Design Icon -->
+	<link rel="stylesheet" href="assets/fonts/material-design/css/materialdesignicons.css">
+
+	<!-- mCustomScrollbar -->
+	<link rel="stylesheet" href="assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.min.css">
+
+	<!-- Waves Effect -->
+	<link rel="stylesheet" href="assets/plugin/waves/waves.min.css">
+
+	<!-- Sweet Alert -->
+	<link rel="stylesheet" href="assets/plugin/sweet-alert/sweetalert.css">
+	
+	<!-- Morris Chart -->
+	<link rel="stylesheet" href="assets/plugin/chart/morris/morris.css">
+
+	<!-- FullCalendar -->
+	<link rel="stylesheet" href="assets/plugin/fullcalendar/fullcalendar.min.css">
+	<link rel="stylesheet" href="assets/plugin/fullcalendar/fullcalendar.print.css" media='print'>
+
+	<!-- Dark Themes -->
+	<link rel="stylesheet" href="assets/styles/style-black.min.css">
+</head>
+
+<body>
+<div class="main-menu">
+	<header class="header">
+		<a href="index.html" class="logo"><i class="ico mdi mdi-cube-outline"></i>MyAdmin</a>
+		<button type="button" class="button-close fa fa-times js__menu_close"></button>
+		<div class="user">
+			<a href="#" class="avatar"><img src="assets/images/avatar-sm-5.jpg" alt=""><span class="status online"></span></a>
+			<h5 class="name"><a href="#">Matt Wang</a></h5>
+			<h5 class="position">Administrator</h5>
+			<!-- /.name -->
+			<div class="control-wrap js__drop_down">
+				<i class="fa fa-caret-down js__drop_down_button"></i>
+				<div class="control-list">
+					<div class="control-item"><a href="#"><i class="fa fa-user"></i> Profile</a></div>
+					<div class="control-item"><a href="#"><i class="fa fa-gear"></i> Settings</a></div>
+					<div class="control-item"><a href="#"><i class="fa fa-sign-out"></i> Log out</a></div>
+				</div>
+				<!-- /.control-list -->
+			</div>
+			<!-- /.control-wrap -->
+		</div>
+		<!-- /.user -->
+	</header>
+	<!-- /.header -->
+	<div class="content">
+
+		<div class="navigation">
+			<h5 class="title">Navigation</h5>
+			<!-- /.title -->
+			<ul class="menu js__accordion">
+				<li class="current">
+					<a class="waves-effect" href="index.html"><i class="menu-icon mdi mdi-view-dashboard"></i><span>Dashboard</span></a>
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon mdi mdi-desktop-mac"></i><span>Script</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="newJoiner.html">New Joiner</a></li>
+
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+
+			</ul>
+
+			<!-- /.menu js__accordion -->
+		</div>
+		<!-- /.navigation -->
+	</div>
+	<!-- /.content -->
+</div>
+<!-- /.main-menu -->
+
+<div class="fixed-navbar">
+	<div class="pull-left">
+		<button type="button" class="menu-mobile-button glyphicon glyphicon-menu-hamburger js__menu_mobile"></button>
+		<h1 class="page-title">Home</h1>
+		<!-- /.page-title -->
+	</div>
+	<!-- /.pull-left -->
+
+	<!-- /.pull-right -->
+</div>
+<!-- /.fixed-navbar -->
+
+
+
+<!-- /#message-popup -->
+<div id="wrapper">
+	<div class="main-content">
+		<div class="row small-spacing">
+
+			<div class="col-lg-4 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title text-info">Total Script</h4>
+					<!-- /.box-title -->
+
+					<!-- /.dropdown js__dropdown -->
+					<div class="content widget-stat">
+						<div id="traffic-sparkline-chart-1" class="left-content margin-top-15"></div>
+						<!-- /#traffic-sparkline-chart-1 -->
+						<div class="right-content">
+							<h2 class="counter text-info">278</h2>
+							<!-- /.counter -->
+							<p class="text text-info">Python Script</p>
+							<!-- /.text -->
+						</div>
+						<!-- .right-content -->
+					</div>
+					<!-- /.content widget-stat -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-4 col-xs-12 -->
+
+			<div class="col-lg-4 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title text-success">Script Done</h4>
+					<!-- /.box-title -->
+
+					<!-- /.dropdown js__dropdown -->
+					<div class="content widget-stat">
+						<div id="traffic-sparkline-chart-2" class="left-content margin-top-10"></div>
+						<!-- /#traffic-sparkline-chart-2 -->
+						<div class="right-content">
+							<h2 class="counter text-success">36%</h2>
+							<!-- /.counter -->
+							<p class="text text-success">runned</p>
+							<!-- /.text -->
+						</div>
+						<!-- .right-content -->
+					</div>
+					<!-- /.content widget-stat -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-4 col-xs-12 -->
+
+			<div class="col-lg-4 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title text-success">Newly update</h4>
+					<!-- /.box-title -->
+
+					<!-- /.dropdown js__dropdown -->
+					<div class="content widget-stat">
+						<div id="traffic-sparkline-chart-3" class="left-content"></div>
+						<!-- /#traffic-sparkline-chart-3 -->
+						<div class="right-content">
+							<h2 class="counter text-danger">849 <i class="fa fa-angle-double-up"></i></h2>
+							<!-- /.counter -->
+							<p class="text text-danger">Updated</p>
+							<!-- /.text -->
+						</div>
+						<!-- .right-content -->
+					</div>
+					<!-- /.content widget-stat -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-4 col-xs-12 -->
+
+			<div class="col-lg-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Visitor Analytics</h4>
+					<!-- /.box-title -->
+
+					<!-- /.dropdown js__dropdown -->
+					<div id="bar-morris-chart" class="morris-chart" style="height: 240px"></div>
+					<div class="text-center">
+						<ul class="list-inline morris-chart-detail-list">
+							<li><i class="fa fa-circle"></i>Series A</li>
+							<li><i class="fa fa-circle"></i>Series B</li>
+							<li><i class="fa fa-circle"></i>Series C</li>
+						</ul>
+					</div>
+					<!-- /#bar-morris-chart.morris-chart -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-6 col-xs-12 -->
+
+			<div class="col-lg-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Script classify</h4>
+					<!-- /.box-title -->
+
+					<!-- /.dropdown js__dropdown -->
+					<div id="donut-morris-chart" class="morris-chart" style="height: 240px"></div>
+					<div class="text-center">
+						<ul class="list-inline morris-chart-detail-list">
+							<li><i class="fa fa-circle"></i>Email</li>
+							<li><i class="fa fa-circle"></i>Forum script</li>
+							<li><i class="fa fa-circle"></i>Others</li>
+						</ul>
+					</div>
+					<!-- /#donut-morris-chart.morris-chart -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-6 col-xs-12 -->
+		</div>
+		<!-- /.row -->
+
+
+
+		<div class="row small-spacing">
+			<div class="col-lg-6 col-xs-12">
+				<div class="box-content">
+					<div id="calendar-widget"></div>
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-6 col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Scripts</h4>
+					<!-- /.box-title -->
+
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:40%;">Name</th>
+									<th>Type</th>
+									<th>Date</th>
+									<th>Version</th>
+
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Amaza Themes</td>
+									<td>$71</td>
+									<td>Nov 12,2016</td>
+									<td class="text-success">Completed</td>
+
+								</tr>
+								<tr>
+									<td>Macbook</td>
+									<td>$142</td>
+									<td>Nov 10,2016</td>
+									<td class="text-danger">Cancelled</td>
+
+								</tr>
+								<tr>
+									<td>Samsung TV</td>
+									<td>$200</td>
+									<td>Nov 01,2016</td>
+									<td class="text-warning">Pending</td>
+
+								</tr>
+								<tr>
+									<td>Ninja Admin</td>
+									<td>$200</td>
+									<td>Oct 28,2016</td>
+									<td class="text-warning">Pending</td>
+
+								</tr>
+								<tr>
+									<td>Galaxy Note 5</td>
+									<td>$200</td>
+									<td>Oct 28,2016</td>
+									<td class="text-success">Completed</td>
+
+								</tr>
+								<tr>
+									<td>CleanUp Themes</td>
+									<td>$71</td>
+									<td>Oct 22,2016</td>
+									<td class="text-success">Completed</td>
+
+								</tr>
+								<tr>
+									<td>Facebook WP Plugin</td>
+									<td>$10</td>
+									<td>Oct 15,2016</td>
+									<td class="text-success">Completed</td>
+
+								</tr>
+								<tr>
+									<td>Iphone 7</td>
+									<td>$100</td>
+									<td>Oct 12,2016</td>
+									<td class="text-warning">Pending</td>
+
+								</tr>
+								<tr>
+									<td>Nova House</td>
+									<td>$100</td>
+									<td>Oct 12,2016</td>
+									<td class="text-warning">Pending</td>
+
+								</tr>
+								<tr>
+									<td>Repair Cars</td>
+									<td>$35</td>
+									<td>Oct 12,2016</td>
+									<td class="text-warning">Pending</td>
+
+								</tr>
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-6 col-xs-12 -->
+		</div>
+		<!-- /.row -->		
+		<footer class="footer">
+			<ul class="list-inline">
+				<li>Copyright &copy; 2019.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Help</a></li>
+			</ul>
+		</footer>
+	</div>
+	<!-- /.main-content -->
+</div><!--/#wrapper -->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="assets/script/html5shiv.min.js"></script>
+		<script src="assets/script/respond.min.js"></script>
+	<![endif]-->
+	<!-- 
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/scripts/jquery.min.js"></script>
+	<script src="assets/scripts/modernizr.min.js"></script>
+	<script src="assets/plugin/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="assets/plugin/nprogress/nprogress.js"></script>
+	<script src="assets/plugin/sweet-alert/sweetalert.min.js"></script>
+	<script src="assets/plugin/waves/waves.min.js"></script>
+
+	<!-- Morris Chart -->
+	<script src="assets/plugin/chart/morris/morris.min.js"></script>
+	<script src="assets/plugin/chart/morris/raphael-min.js"></script>
+	<script src="assets/scripts/chart.morris.black.init.min.js"></script>
+
+	<!-- Flot Chart -->
+	<script src="assets/plugin/chart/plot/jquery.flot.min.js"></script>
+	<script src="assets/plugin/chart/plot/jquery.flot.tooltip.min.js"></script>
+	<script src="assets/plugin/chart/plot/jquery.flot.categories.min.js"></script>
+	<script src="assets/plugin/chart/plot/jquery.flot.pie.min.js"></script>
+	<script src="assets/plugin/chart/plot/jquery.flot.stack.min.js"></script>
+	<script src="assets/scripts/chart.flot.black.init.min.js"></script>
+
+	<!-- Sparkline Chart -->
+	<script src="assets/plugin/chart/sparkline/jquery.sparkline.min.js"></script>
+	<script src="assets/scripts/chart.sparkline.init.min.js"></script>
+
+	<!-- FullCalendar -->
+	<script src="assets/plugin/moment/moment.js"></script>
+	<script src="assets/plugin/fullcalendar/fullcalendar.min.js"></script>
+	<script src="assets/scripts/fullcalendar.init.js"></script>
+
+	<script src="assets/scripts/main.min.js"></script>
+</body>
+</html>

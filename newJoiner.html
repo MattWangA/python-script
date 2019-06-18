@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Script</title>
+
+	<!-- Main Styles -->
+	<link rel="stylesheet" href="assets/styles/style.min.css">
+	
+	<!-- Material Design Icon -->
+	<link rel="stylesheet" href="assets/fonts/material-design/css/materialdesignicons.css">
+
+	<!-- mCustomScrollbar -->
+	<link rel="stylesheet" href="assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.min.css">
+
+	<!-- Waves Effect -->
+	<link rel="stylesheet" href="assets/plugin/waves/waves.min.css">
+
+	<!-- Sweet Alert -->
+	<link rel="stylesheet" href="assets/plugin/sweet-alert/sweetalert.css">
+
+	<!-- Table Responsive -->
+	<link rel="stylesheet" href="assets/plugin/RWD-table-pattern/css/rwd-table.min.css">
+	<!-- Remodal -->
+	<link rel="stylesheet" href="assets/plugin/modal/remodal/remodal.css">
+	<link rel="stylesheet" href="assets/plugin/modal/remodal/remodal-default-theme.css">
+	<!-- Dark Themes -->
+	<link rel="stylesheet" href="assets/styles/style-black.min.css">
+</head>
+
+<body>
+<div class="main-menu">
+	<header class="header">
+		<a href="index.html" class="logo"><i class="ico mdi mdi-cube-outline"></i>MyAdmin</a>
+		<button type="button" class="button-close fa fa-times js__menu_close"></button>
+		<div class="user">
+			<a href="#" class="avatar"><img src="assets/images/avatar-sm-5.jpg" alt=""><span class="status online"></span></a>
+			<h5 class="name"><a href="#">Matt Wang</a></h5>
+			<h5 class="position">Administrator</h5>
+			<!-- /.name -->
+			<div class="control-wrap js__drop_down">
+				<i class="fa fa-caret-down js__drop_down_button"></i>
+				<div class="control-list">
+					<div class="control-item"><a href="#"><i class="fa fa-user"></i> Profile</a></div>
+					<div class="control-item"><a href="#"><i class="fa fa-gear"></i> Settings</a></div>
+					<div class="control-item"><a href="#"><i class="fa fa-sign-out"></i> Log out</a></div>
+				</div>
+				<!-- /.control-list -->
+			</div>
+			<!-- /.control-wrap -->
+		</div>
+		<!-- /.user -->
+	</header>
+	<!-- /.header -->
+	<div class="content">
+
+		<div class="navigation">
+			<h5 class="title">Navigation</h5>
+			<!-- /.title -->
+			<ul class="menu js__accordion">
+				<li class="current">
+					<a class="waves-effect" href="index.html"><i class="menu-icon mdi mdi-view-dashboard"></i><span>Dashboard</span></a>
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon mdi mdi-desktop-mac"></i><span>Script</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="newJoiner.html">New Joiner</a></li>
+
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+
+			</ul>
+
+			<!-- /.menu js__accordion -->
+		</div>
+		<!-- /.navigation -->
+	</div>
+	<!-- /.content -->
+</div>
+<!-- /.main-menu -->
+
+<div class="fixed-navbar">
+	<div class="pull-left">
+		<button type="button" class="menu-mobile-button glyphicon glyphicon-menu-hamburger js__menu_mobile"></button>
+		<h1 class="page-title">Script</h1>
+		<!-- /.page-title -->
+	</div>
+	<!-- /.pull-left -->
+</div>
+<!-- /.fixed-navbar -->
+
+
+<!-- /#message-popup -->
+<div id="wrapper">
+	<div class="main-content">
+		<div class="row small-spacing">
+			<div class="col-xs-12">
+				<div class="box-content">
+					<div class="table-responsive" data-pattern="priority-columns">
+						<table id="tech-companies-1" class="table table-small-font table-bordered table-striped">
+							<thead>
+								<tr>
+									<th> </th>
+									<th>Status</th>
+									<th data-priority="6">No.</th>
+									<th data-priority="1">Name</th>
+									<th data-priority="3">Title</th>
+									<th data-priority="1">Team</th>
+									<th data-priority="3">Manager</th>
+									<th data-priority="3">First.N</th>
+									<th data-priority="6">Sur.N</th>
+									<th data-priority="6">HRID</th>
+									<th data-priority="6">Hire Date</th>
+									<th data-priority="6">First.Sur</th>
+									<th data-priority="6">Email</th>
+									<th data-priority="6">EXT</th>
+									<th data-priority="6">Fix.Line</th>
+									<th data-priority="6">Password</th>
+									<th data-priority="6">Site</th>
+									<th data-priority="6">Mobile</th>
+								</tr>
+							</thead>
+							<tbody id='newjoiner'>
+							</tbody>
+						</table>
+					</div>
+
+		<!-- /.dropdown js__dropdown -->
+							<button id = "updload_newjoiner" type="button" data-remodal-target="remodal" class="btn btn-primary waves-effect waves-light">Upload</button>
+
+						<!-- /.box-content -->
+
+
+
+
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-6 col-xs-12 -->
+		</div>
+		<!-- /.row small-spacing -->		
+		<footer class="footer">
+			<ul class="list-inline">
+				<li>Copyright &copy; 2019.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Help</a></li>
+			</ul>
+		</footer>
+	</div>
+	<!-- /.main-content -->
+</div><!--/#wrapper -->
+
+<div class="modal fade" id="boostrapModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="remodal" data-remodal-id="remodal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+		<div class="remodal-content">
+			<h2 id="modal1Title">Upload</h2>
+			<p id="modal1Desc">
+				You will insert the new joiners into the Intranet,are you sure ?
+			</p>
+		</div>
+		<button id = 'upload_newjoiner' data-remodal-action="confirm" class="remodal-confirm">OK</button>
+		<button id = 'upload_newjoiner_cancel'data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+	</div>
+</div>
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="assets/script/html5shiv.min.js"></script>
+		<script src="assets/script/respond.min.js"></script>
+	<![endif]-->
+	<!-- 
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/scripts/jquery.min.js"></script>
+	<script src="assets/scripts/modernizr.min.js"></script>
+	<script src="assets/plugin/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="assets/plugin/nprogress/nprogress.js"></script>
+	<script src="assets/plugin/sweet-alert/sweetalert.min.js"></script>
+	<script src="assets/plugin/waves/waves.min.js"></script>
+
+	<!-- Responsive Table -->
+
+	<script src="assets/scripts/rwd.demo.min.js"></script>
+
+<!-- Remodal -->
+	<script src="assets/plugin/modal/remodal/remodal.min.js"></script>
+	<script src="assets/scripts/main.min.js"></script>
+
+<script>
+    $.ajax({
+        type : "get",
+        url : "http://127.0.0.1:5000/New_joiner/read",
+        dataType: "json",
+        success: function(result){
+            if (result.status == 0){
+                 $.each(result.data,function (a,val) {
+                     var arr = '';
+                     $.each(val,function (b,data) {
+                         arr = arr + "<td>"+data+"</td>"
+                     })
+					 arr = "<tr><td><input type='checkbox' name = 'newjoiner_id' value="+result.data[a][0]+"></td><td>open</td>" + arr +"</tr>"
+                     $("#newjoiner").append(arr)
+                 })
+			}else {
+                console.log("error")
+            }
+        },
+        error: function () {
+            console.log("error")
+        }
+    });
+
+	$("#upload_newjoiner").click(function () {
+        var list = new Array();
+	  $("#tech-companies-1 input[name=newjoiner_id]").each(function () {
+          if ($(this).is(':checked')) {
+             list.push($(this).val())
+          }
+       })
+		if (list.length == 0){
+		    alert("Please choose the new joiner!")
+		}
+		else{
+            $.ajax({
+                type : "POST",
+                url : "http://127.0.0.1:5000/New_joiner/searchdata",
+				data:  JSON.stringify({
+                "Idlist":list
+            }),
+
+            dataType: "json",
+                success: function(result){
+                    if (result.status == 0){
+                      console.log(result.data)
+                    }else {
+                        console.log("error")
+                    }
+                },
+                error: function () {
+                    console.log("error")
+                }
+            });
+		}
+    })
+
+</script>
+
+
+</body>
+</html>
