@@ -202,13 +202,15 @@
         url : "http://10.20.11.85:5000/New_joiner/read",
         dataType: "json",
         success: function(result){
+
             if (result.status == 0){
                  $.each(result.data,function (a,val) {
                      var arr = '';
                      $.each(val,function (b,data) {
-                         arr = arr + "<td>"+data+"</td>"
+                         if(b<=16){
+						  arr = arr + "<td>"+data+"</td>"}
                      })
-					 arr = "<tr><td><input type='checkbox' name = 'newjoiner_id' value="+result.data[a][0]+"></td><td>open</td>" + arr +"</tr>"
+					 arr = "<tr><td><input type='checkbox' name = 'newjoiner_id' value="+result.data[a][1]+"></td>" + arr +"</tr>"
                      $("#newjoiner").append(arr)
                  })
 			}else {

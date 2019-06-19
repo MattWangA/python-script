@@ -1,7 +1,7 @@
 from flask import Flask,Blueprint
 from flask_restful import Resource, Api
-from resource.Index.Index import simple_page
-from resource.excel.excel import excel
+from backend.resource.Index.Index import simple_page
+from backend.resource.excel.excel import excel
 
 def after_request(response):
     response.headers['Access-Control-Allow-Origin'] = '*'
@@ -20,3 +20,4 @@ app.after_request(after_request)
 
 if __name__ == '__main__':
     app.run(host='10.20.11.85',debug = True)
+    #   app.run(debug=True)

@@ -4,8 +4,9 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
 import time
+
 import xlrd
-from app.config import config
+from backend.app.config import config
 
 class selenium:
     def __init__(self):
@@ -137,6 +138,10 @@ def Language(location, teamID):
         pass
 
     return list
+
+
+
+
 
 
 if __name__ == '__main__':
