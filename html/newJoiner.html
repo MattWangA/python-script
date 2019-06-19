@@ -199,7 +199,7 @@
 <script>
     $.ajax({
         type : "get",
-        url : "http://127.0.0.1:5000/New_joiner/read",
+        url : "http://10.20.11.85:5000/New_joiner/read",
         dataType: "json",
         success: function(result){
             if (result.status == 0){
@@ -233,7 +233,7 @@
 		else{
             $.ajax({
                 type : "POST",
-                url : "http://127.0.0.1:5000/New_joiner/searchdata",
+                url : "http://10.20.11.85:5000/New_joiner/searchdata",
 				data:  JSON.stringify({
                 "Idlist":list
             }),
