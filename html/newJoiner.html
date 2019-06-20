@@ -70,6 +70,11 @@
 					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon mdi mdi-desktop-mac"></i><span>Script</span><span class="menu-arrow fa fa-angle-down"></span></a>
 					<ul class="sub-menu js__content">
 						<li><a href="newJoiner.html">New Joiner</a></li>
+						<li><a href="#">GDRPSpecialistDetails</a></li>
+						<li><a href="#">Generate2SpecialistsTemplate</a></li>
+						<li><a href="#">GeneratePostCallNotes</a></li>
+						<li><a href="#">GenerateTopAPACCallsTemplate</a></li>
+						<li><a href="#">GenerateTopCallsTemplate</a></li>
 
 					</ul>
 					<!-- /.sub-menu js__content -->
@@ -199,7 +204,8 @@
 <script>
     $.ajax({
         type : "get",
-        url : "http://10.20.11.85:5000/New_joiner/read",
+        // url : "http://10.20.11.85:5000/New_joiner/read",
+        url : "http://127.0.0.1:5000/New_joiner/read",
         dataType: "json",
         success: function(result){
 
@@ -235,7 +241,7 @@
 		else{
             $.ajax({
                 type : "POST",
-                url : "http://10.20.11.85:5000/New_joiner/searchdata",
+                url : "http://127.0.0.1:5000/New_joiner/searchdata",
 				data:  JSON.stringify({
                 "Idlist":list
             }),
