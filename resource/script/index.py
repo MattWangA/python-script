@@ -1,9 +1,8 @@
 from resource.script import script
 import os
 import json
-
+import  GenerateTopAPACCallsTemplate.main as main
 
 @script.route('/')
 def GenerateTopCalls():
-    os.system('scriptfile/GenerateTopCalls/GenerateTopCallsTemplate.bat')
-    return json.dumps({"status":0,"data":"success"})
+    main.main()

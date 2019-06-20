@@ -3,6 +3,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 
 import xlrd
@@ -10,7 +11,9 @@ from app.config import config
 
 class selenium:
     def __init__(self):
-        self.driver = webdriver.Chrome()
+
+        self.driver = webdriver.Remote(command_executor='10.20.11.53:4444/wd/hub',
+                                  desired_capabilities=DesiredCapabilities.CHROME)
 
     def index(self,excel_list):
         username = 'matt.wang'
@@ -140,6 +143,10 @@ def Language(location, teamID):
     return list
 
 
+def test():
+    driver = webdriver.Remote(command_executor='10.20.11.53:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
+    driver.get("https://www.baidu.com")
+
 
 
 
@@ -147,3 +154,4 @@ def Language(location, teamID):
 if __name__ == '__main__':
     selenium = selenium()
     selenium.index()
+    # test()

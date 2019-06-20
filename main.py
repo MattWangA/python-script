@@ -15,7 +15,7 @@ app = Flask(__name__)
 api = Api(app)
 app.register_blueprint(simple_page,url_prefix='/Index')
 app.register_blueprint(excel,url_prefix='/New_joiner')
-app.register_blueprint(script,url_prefix='/runScript')
+app.register_blueprint(script,url_prefix='/')
 app.after_request(after_request)
 
 

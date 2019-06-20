@@ -1,0 +1,90 @@
+
+                                    <tr>
+                                      <td valign="bottom" align="center">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td width="25" class="em_hide"> </td>
+                                            <td valign="top" align="center">
+                                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tr>
+                                                    <td valign="top">
+                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#fff0cd">
+                                                <tr>
+                                                  <td height="7" style="font-size:1px; line-height:1px;"> </td>
+                                                </tr>
+                                                <tr>
+                                                  <td valign="bottom" align="center">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td width="20" class="em_spacer"> </td>
+                                                        <td valign="bottom" align="center">
+                                                          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                            <tr>
+                                                              <td width="80%" align="center" valign="top">
+                                                                <table width="80%" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                                                  <tr>
+                                                                    <td height="2" style="font-size:1px; line-height:1px;"> </td>
+                                                                  </tr>
+                                                                    <tr>
+                                                                    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                    <tbody>
+                                                                  <tr>
+                                                                    <td class="em_blk" valign="top" align="left" style="font-family:Arial, sans-serif; font-size:15px; line-height:19px; color:#000000; font-weight:bold;">
+                                                                      [$sector_field] $event_title
+                                                                    </td>
+                                                                  </tr>
+
+                                                                  <tr>
+                                                                    <td height="5" style="font-size:1px; line-height:1px;"> </td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td valign="top" align="left" style="font-family:Arial, sans-serif; font-size:12px; line-height:14px; color:#000000;">
+                                                                      <span class="em_blk">$specialist_title</span>
+                                                                    </td>
+                                                                  </tr>
+                                                                      </tbody>
+                                                                    </table>
+                                                                    </td></tr>
+                                                                  <tr>
+                                                                    <td height="5" style="font-size:1px; line-height:1px;"> </td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td class="em_blk" valign="top" align="left" style="font-family:Arial, sans-serif; font-size:10px; line-height:12px; color:#000000; font-weight:bold;">
+                                                                      英文纪要
+                                                                    </td>
+                                                                  </tr>
+                                                                                                            <tr>
+                                                                    <td height="7" style="font-size:1px; line-height:1px;" class="em_hit"> </td>
+                                                                  </tr>
+                                                                </table>
+                                                              </td>
+                                                              <td valign="bottom" align="center" width="42" class="em_hide">
+                                                              </td>
+            {if in_array($client.CompanyID, array('326', '677'), true)}                                                   
+                                                              <td width="20%" class="em_blue" valign="centre" align="right" style="font-family:Arial, sans-serif; font-size:17px; line-height:20px; color:#000000;">
+                                                                  <a href="https://client.thirdbridge.com/client/spotlight-discussion/details?eventUid=$event_uuid&to={$clientuser.EmailAddress}&source=SD" target="_blank" style="text-decoration:none; color:#e1af5f; font-weight:bold;">获取会议纪要</a></td>
+            {else}                                                      
+                                                              <td width="20%" class="em_blue" valign="centre" align="right" style="font-family:Arial, sans-serif; font-size:17px; line-height:20px; color:#000000;">
+                                                                  <a href="https://forum-portal.thirdbridge.com/transcripts/conference-calls/$event_uuid?token={$clientuser.portal_token}&source=SD#$event_uuid" target="_blank" style="text-decoration:none; color:#e1af5f; font-weight:bold;">获取会议纪要</a></td>
+            {/if}                                                      
+                                                            </tr>
+                                                          </table>
+                                                        </td>
+                                                        <td width="20" class="em_spacer"> </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td height="8" style="font-size:1px; line-height:1px;"> </td>
+                                                  </tr>
+                                                </table>
+                                            </td>
+                                            <td width="25" class="em_hide"> </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
