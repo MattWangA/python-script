@@ -94,13 +94,15 @@ def get_excel_data():
 @excel.route('/log')
 def log_write(ID):
     res = ','.join(str(v).strip() for v in ID)
-    print("aaaaa".res)
     with open('test.txt', 'a') as f:
        f.write(res)
     return json.dumps({'status': -1,'data':'aaa'})
 
 
 def log_read():
+    list_id = []
     with open('test.txt','r') as f:
         list = f.read().split(',')
-    return list
+        for i in list:
+            list_id.append(i.strip())
+    return list_id
