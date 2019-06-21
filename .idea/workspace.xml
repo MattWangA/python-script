@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6abfdeb4-8a4e-433c-aace-341a1567ccfd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/newJoiner.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/newJoiner.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,7 +86,7 @@
         <counts>
           <entry key="bat" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="4" />
+          <entry key="html" value="5" />
           <entry key="pip" value="1" />
           <entry key="py" value="42" />
           <entry key="txt" value="6" />
@@ -93,7 +94,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="5" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="43" />
         </counts>
@@ -136,11 +137,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="259" column="26" lean-forward="true" selection-start-line="259" selection-start-column="26" selection-end-line="259" selection-end-column="26" />
+            <state relative-caret-position="164">
+              <caret line="274" column="75" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/newJoiner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -196,10 +206,10 @@
         <option value="$PROJECT_DIR$/resources/intranet.py" />
         <option value="$PROJECT_DIR$/GenerateTopAPACCallsTemplate/main.py" />
         <option value="$PROJECT_DIR$/resource/selenium/index.py" />
-        <option value="$PROJECT_DIR$/html/newJoiner.html" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/resource/excel/excel.py" />
         <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/newJoiner.html" />
       </list>
     </option>
   </component>
@@ -573,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/newJoiner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="254" column="44" lean-forward="true" selection-start-line="254" selection-start-column="44" selection-end-line="254" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/excel/excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -589,8 +592,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="259" column="26" lean-forward="true" selection-start-line="259" selection-start-column="26" selection-end-line="259" selection-end-column="26" />
+        <state relative-caret-position="164">
+          <caret line="274" column="75" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/newJoiner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
         </state>
       </provider>
     </entry>
