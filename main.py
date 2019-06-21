@@ -2,7 +2,7 @@ from flask import Flask,Blueprint
 from flask_restful import Resource, Api
 from resource.Index.Index import simple_page
 from resource.excel.excel import excel
-from resource.script.index import script
+
 
 def after_request(response):
     response.headers['Access-Control-Allow-Origin'] = '*'
@@ -15,7 +15,6 @@ app = Flask(__name__)
 api = Api(app)
 app.register_blueprint(simple_page,url_prefix='/Index')
 app.register_blueprint(excel,url_prefix='/New_joiner')
-app.register_blueprint(script,url_prefix='/')
 app.after_request(after_request)
 
 
