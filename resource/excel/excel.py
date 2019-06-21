@@ -47,11 +47,12 @@ def read_excel():
     date = time.strftime('%Y-%m-%d', time.localtime(time.time()))
     list = []
     data = {}
+    ID_list = log_read()
+    print(ID_list)
     for i in range(len(value)):
         # 对result的每个子元素作遍历，
         if len(value[i]) > 1 and value[i][8] != '' and time.strptime(date,"%Y-%m-%d") <= time.strptime(value[i][8],"%d/%m/%Y") :
             if value[i][16] == "Yes":
-                ID_list = log_read()
                 if value[i][0] in ID_list:
                     value[i].insert(0,'close')
                 else:
@@ -76,6 +77,7 @@ def get_excel_data():
         list = []
         data = {}
         ID_list =  request.get_json('data')['Idlist']
+        print(ID_list)
 
         for i in range(len(value)):
             # 对result的每个子元素作遍历，
