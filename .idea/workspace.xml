@@ -70,7 +70,7 @@
         <counts>
           <entry key="gitignore" value="8" />
           <entry key="html" value="239" />
-          <entry key="py" value="2005" />
+          <entry key="py" value="2019" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -78,7 +78,7 @@
         <counts>
           <entry key="HTML" value="239" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="2005" />
+          <entry key="Python" value="2019" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -130,8 +130,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resource/excel/excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+            <state relative-caret-position="226">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -401,10 +401,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Run Dashboard" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -589,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/excel/excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+        <state relative-caret-position="226">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
