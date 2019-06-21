@@ -70,7 +70,7 @@
         <counts>
           <entry key="gitignore" value="8" />
           <entry key="html" value="239" />
-          <entry key="py" value="2000" />
+          <entry key="py" value="2005" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -78,7 +78,7 @@
         <counts>
           <entry key="HTML" value="239" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="2000" />
+          <entry key="Python" value="2005" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -105,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/selenium/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
-              <caret line="96" column="50" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
+            <state relative-caret-position="-344">
+              <caret line="106" column="20" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
               <folding>
                 <element signature="e#44#74#0" expanded="true" />
                 <marker date="1561100274144" expanded="true" signature="5071:5239" ph="..." />
@@ -130,8 +130,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resource/excel/excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="316">
+              <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -139,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/newJoiner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
+            <state relative-caret-position="211">
               <caret line="254" column="44" lean-forward="true" selection-start-line="254" selection-start-column="44" selection-end-line="254" selection-end-column="44" />
             </state>
           </provider>
@@ -225,6 +225,11 @@
             <path>
               <item name="python-script" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-script" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-script" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python-script" type="b2602c69:ProjectViewProjectNode" />
@@ -396,10 +401,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Run Dashboard" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -556,19 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/newJoiner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="211">
           <caret line="254" column="44" lean-forward="true" selection-start-line="254" selection-start-column="44" selection-end-line="254" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/selenium/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="96" column="50" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
-          <folding>
-            <element signature="e#44#74#0" expanded="true" />
-            <marker date="1561100274144" expanded="true" signature="5071:5239" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,10 +576,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resource/selenium/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="106" column="20" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
+          <folding>
+            <element signature="e#44#74#0" expanded="true" />
+            <marker date="1561100274144" expanded="true" signature="5071:5239" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resource/excel/excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="316">
+          <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
         </state>
       </provider>
     </entry>
