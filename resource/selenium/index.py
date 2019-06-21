@@ -94,7 +94,7 @@ class selenium:
             for i in Lan:
                 s9.select_by_value(i)
             time.sleep(5)
-            self.driver.find_element_by_name('insert').click()
+            self.driver.find_element_by_name('back').click()
 
 
 

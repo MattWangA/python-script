@@ -85,8 +85,9 @@ def get_excel_data():
         se = selenium()
         se.index(excel_list=list)
         log_write(ID_list)
+        return json.dumps({'status': 0, 'data':'success'})
     else :
-        return json.dumps({'status':'0', 'data':'error'})
+        return json.dumps({'status': -1, 'data':'error'})
 
 @excel.route('/log')
 def log_write(ID):
