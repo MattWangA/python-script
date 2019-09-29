@@ -7,7 +7,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 
 import xlrd
-from app.config import config
+#from app.config import config
 
 class selenium:
     def __init__(self):
@@ -30,7 +30,7 @@ class selenium:
         action.move_to_element(element).perform()
         time.sleep(5)
 
-        self.driver.find_element_by_xpath('//ul[@class="no-list rollover-item"]/a[10]').click()
+        self.driver.find_element_by_xpath('//ul[@class="no-list rollover-item"]/a[9]').click()
         time.sleep(2)
         for list in excel_list:
             self.driver.find_element_by_xpath(
@@ -41,7 +41,7 @@ class selenium:
             SurName = list[6]
             EmailAddress = list[10]
             PhoneNumber = list[12]
-            if len(list) == 16:
+            if len(list) >= 16:
                 MobilePhoneNumber = list[15]
             else:
                 MobilePhoneNumber = ''
@@ -94,7 +94,7 @@ class selenium:
             for i in Lan:
                 s9.select_by_value(i)
             time.sleep(5)
-            self.driver.find_element_by_name('back').click()
+            self.driver.find_element_by_name('insert').click()
 
 
 
@@ -144,7 +144,7 @@ def Language(location, teamID):
 
 
 def test():
-    driver = webdriver.Remote(command_executor='10.20.11.53:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
+    driver = webdriver.Remote(command_executor='10.20.11.37:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
     driver.get("https://www.baidu.com")
 
 
@@ -153,5 +153,5 @@ def test():
 
 if __name__ == '__main__':
     selenium = selenium()
-    selenium.index()
+    selenium.test()
     # test()

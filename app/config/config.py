@@ -27,6 +27,7 @@ Team = {
     "PE - Kan": "35",
     "PE - Li": "36",
     "PE - Ze": "146",
+    "HF - Yi" : "175",
     "HF - Zhen": "51",
     "Japan": "40",
     "Korea Seoul": "54",
@@ -51,7 +52,8 @@ Team = {
     "Sales": "18",
     "Property": "1",
     "Product & Innovation": "13",
-    "Connections Operations" : "113"
+    "Connections Operations" : "113",
+    "Aryan" : "165"
 }
 
 Title = {
@@ -215,6 +217,7 @@ Title = {
     "Senior Research Executive": "Senior Research Executive",
     "Senior Server Side Developer": "Senior Server Side Developer",
     "Senior Systems Engineer": "Senior Systems Engineer",
+    "Senior Manager" : "Senior Manager",
     "Senior Systems Manager": "Senior Systems Manager",
     "Senior Vice President": "Senior Vice President",
     "Senior VP Sales": "Senior VP Sales",
@@ -255,7 +258,7 @@ Title = {
 
 position = ['11', '16', '23', '35', '36', '40', '42', '43', '44', '45', '51', '54', '58', '59', '60', '62', '64', '70',
             '71', '73', '76', '89', '91', '96', '98', '100', '101', '102', '103', '104', '107', '111', '114', '115',
-            '119', '120', '126', '128', '130', '131', '135', '138', '146', '147', '148''155', '159', '160', '161',
+            '119', '120', '126', '128', '130', '131', '135', '138', '146', '147', '148','155', '159', '160', '161',
             '162', '163', '165', '166', '167', '168', '169', '170', '171', '172']
 
 
