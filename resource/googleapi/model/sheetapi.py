@@ -4,8 +4,7 @@ import os.path
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
-from app.config import  setting
-
+from app.config import setting
 class googleSheet:
 
     def __init__(self,sheetID, range):
@@ -55,6 +54,3 @@ class googleSheet:
 
 
 
-if __name__ == '__main__':
-    sheet = googleSheet(setting.google_sheet['new_joiner']['SAMPLE_SPREADSHEET_ID'],setting.google_sheet['new_joiner']['SAMPLE_RANGE_NAME'])
-    sheet.read_excel()

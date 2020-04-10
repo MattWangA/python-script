@@ -113,11 +113,11 @@
 								<tr>
 									<th> </th>
 									<th>Status</th>
-									<th data-priority="6">No.</th>
 									<th data-priority="1">Name</th>
 									<th data-priority="3">Title</th>
 									<th data-priority="1">Team</th>
-									<th data-priority="3">Manager</th>
+									<th data-priority="6">TeamLeader</th>
+									<th data-priority="3">Report Manager</th>
 									<th data-priority="3">First.N</th>
 									<th data-priority="6">Sur.N</th>
 									<th data-priority="6">HRID</th>
@@ -204,8 +204,8 @@
 <script>
     $.ajax({
         type : "get",
-        url : "http://10.20.11.37:5000/New_joiner/read",
-        //url : "http://127.0.0.1:5000/New_joiner/read",
+       // url : "http://0.0.0.0:5000/New_joiner/read",
+        url : "http://127.0.0.1:5000/New_joiner/read",
         dataType: "json",
         success: function(result){
 
@@ -216,7 +216,7 @@
                          if(b<=16){
 						  arr = arr + "<td>"+data+"</td>"}
                      })
-					 arr = "<tr><td><input type='checkbox' name = 'newjoiner_id' value="+result.data[a][1]+"></td>" + arr +"</tr>"
+					 arr = "<tr><td><input type='checkbox' name = 'newjoiner_id' value="+result.data[a][20]+"></td>" + arr +"</tr>"
                      $("#newjoiner").append(arr)
                  })
 			}else {
@@ -241,8 +241,8 @@
 		else{
             $.ajax({
                 type : "POST",
-                url : "http://10.20.11.37:5000/New_joiner/searchdata",
-                // url : "http://127.0.0.1:5000/New_joiner/searchdata",
+                //url : "http://0.0.0.0:5000/New_joiner/searchdata",
+                url : "http://127.0.0.1:5000/New_joiner/searchdata",
 				data:  JSON.stringify({
                 "Idlist":list
             }),

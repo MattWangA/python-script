@@ -11,8 +11,8 @@ Office_location = {
 Role = {
     "N/A": "",
     "Intern": "INTERN",
-    "Analyst": "RESEARCH_ANALYST_LVL1",
-    "Associate": "RESEARCH_ASSOCIATE",
+    "Associate": "RESEARCH_ANALYST_LVL1",
+    "Client Associate": "RESEARCH_ASSOCIATE",
     "Senior Associate": "SENIOR_RESEARCH_ASSOCIATE",
     "Team Leader": "TEAM_LEADER",
     "Team Leader, Research Operations" : "TEAM_LEADER"
@@ -29,9 +29,9 @@ Team = {
     "PE - Ze": "146",
     "HF - Yi" : "175",
     "HF - Zhen": "51",
-    "Japan": "40",
-    "Korea Seoul": "54",
-    "Korea Busan": "135",
+    "Sapporo": "182",
+    "Alpha": "181",
+    "Universe": "180",
     "Research Coordinators": "63",
     "HK - Operation": "63",
     "HK - Bluebell": "155",
@@ -252,7 +252,8 @@ Title = {
     "VP Sales, Asia": "VP Sales, Asia",
     "VP Sales, Europe": "VP Sales, Europe",
     "VP Strategy & Product Development": "",
-    "VP Talent Acquisition": "VP Talent Acquisition"
+    "VP Talent Acquisition": "VP Talent Acquisition",
+    "SVP" : "SVP"
 
 }
 

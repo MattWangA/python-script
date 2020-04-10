@@ -20,5 +20,5 @@ app.after_request(after_request)
 
 
 if __name__ == '__main__':
-    app.run(host='10.20.11.37',debug = True)
+    app.run(host='127.0.0.1',debug = True,port=5000)
       # app.run(debug=True)

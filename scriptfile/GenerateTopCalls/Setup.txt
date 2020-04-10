@@ -1,6 +1,0 @@
-Month=June
-Year=2018
-TranscriptsOrCalls=Transcripts
-EURegistrationSubject=Interest in EU top calls
-USRegistrationSubject=Interest in US top calls
-AsiaRegistrationSubject=Interest in APAC top calls

@@ -2,13 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6abfdeb4-8a4e-433c-aace-341a1567ccfd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/background.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/background.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenerateTopAPACCallsTemplate/build/main/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenerateTopAPACCallsTemplate/main.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/chart-3d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/chart-chartist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/chart-chartjs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/chart-dynamic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/chart-flot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/chart-knob.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/chart-morris.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/chart-other.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/chart-sparkline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/email-template-verify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-email-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-maps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-taskboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/extras-tour.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form-advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form-elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form-fileupload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form-validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form-wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form-wysiwig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form-xeditable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/icons-font-awesome-icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/icons-fontello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/icons-material-design-iconic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/icons-material-icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/icons-themify-icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/inbox.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/newJoiner.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/newJoiner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/page-404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/page-500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/page-confirm-mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/page-lock-screen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/page-login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/page-recoverpw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/page-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/page-starter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/read-mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tables-basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tables-datatable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tables-editable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/tables-responsive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-checkbox-radio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-draggable-cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-modals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-range-slider.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-sweetalert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-treeview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ui-typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/widgets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/说明.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/excel/excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/resource/excel/excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/googleapi/model/sheetapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/resource/googleapi/model/sheetapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/selenium/.index.py.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/selenium/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/resource/selenium/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/GenerateTopCallsTemplate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/Setup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/bin/GenerateTopCallsTemplate.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/bin/login.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/client_secret.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/credentials.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/templates/main_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/templates/section_1_row.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/templates/section_1_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/templates/section_2_row.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/templates/section_2_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/templates/section_3_row.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptfile/GenerateTopCalls/templates/section_3_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/token.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/token.pickle" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,144 +105,6 @@
     <SUITE FILE_PATH="coverage/python_script$index.coverage" NAME="index Coverage Results" MODIFIED="1561021595446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resource/selenium" />
     <SUITE FILE_PATH="coverage/python_script$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1561012723413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-831857687">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="1976" />
-          <entry key="js" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="1976" />
-          <entry key="JavaScript" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="4" />
-          <entry key="js" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="4" />
-          <entry key="JavaScript" value="6" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="570134846">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="gitignore" value="8" />
-          <entry key="html" value="332" />
-          <entry key="py" value="2090" />
-          <entry key="txt" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="332" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="2090" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="bat" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="5" />
-          <entry key="pip" value="1" />
-          <entry key="py" value="42" />
-          <entry key="txt" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="5" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="43" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/selenium/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-344">
-              <caret line="106" column="20" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
-              <folding>
-                <element signature="e#44#74#0" expanded="true" />
-                <marker date="1561100274144" expanded="true" signature="5071:5239" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/excel/excel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="95" column="46" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="274" column="75" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/newJoiner.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -164,54 +112,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Visitor Analytics</find>
-      <find>Purchases</find>
-      <find>display all</find>
-      <find>button</find>
-      <find>Focus</find>
-      <find>&lt;button</find>
-      <find>Display all</find>
-      <find>Lauch</find>
-      <find>clarative state notation and hash tracking.</find>
-      <find>backend.</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/plugin/RWD-table-pattern/js/rwd-table.js" />
-        <option value="$PROJECT_DIR$/assets/plugin/RWD-table-pattern/js/rwd-table.min.js" />
-        <option value="$PROJECT_DIR$/newJoiner.html" />
-        <option value="$PROJECT_DIR$/backend/resource/selenium/index.py" />
-        <option value="$PROJECT_DIR$/backend/resource/Index/Index.py" />
-        <option value="$PROJECT_DIR$/backend/test.txt" />
-        <option value="$PROJECT_DIR$/backend/main.py" />
-        <option value="$PROJECT_DIR$/backend/resource/excel/excel.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/resource/script/__init__.py" />
-        <option value="$PROJECT_DIR$/resource/Index/Index.py" />
-        <option value="$PROJECT_DIR$/resources/EnvironmentSelector.py" />
-        <option value="$PROJECT_DIR$/resources/misc_report_data/misc_report_data.py" />
-        <option value="$PROJECT_DIR$/resources/misc_report_data/custom_misc_report.py" />
-        <option value="$PROJECT_DIR$/resources/setup.py" />
-        <option value="$PROJECT_DIR$/GenerateTopAPACCallsTemplate/lib/google_api_mod.py" />
-        <option value="$PROJECT_DIR$/resources/email_templates.py" />
-        <option value="$PROJECT_DIR$/resource/script/index.py" />
-        <option value="$PROJECT_DIR$/resources/intranet.py" />
-        <option value="$PROJECT_DIR$/GenerateTopAPACCallsTemplate/main.py" />
-        <option value="$PROJECT_DIR$/resource/selenium/index.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/resource/excel/excel.py" />
-        <option value="$PROJECT_DIR$/html/index.html" />
-        <option value="$PROJECT_DIR$/html/newJoiner.html" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -219,53 +121,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
+  <component name="ProjectId" id="1ZvcklOHj0NtLDkpYhnouuROJzw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python-script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-script" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-script" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-script" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-script" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="excel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-script" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -284,22 +148,27 @@
         <option value="ChromiumRemoteDebugType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration name="newJoiner.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python-script/html/newJoiner.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="newJoiner.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/python-script/html/newJoiner.html">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="background" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resource/excel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resource/excel/excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -368,20 +237,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="background" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main (1)" />
-      <item itemvalue="JavaScript Debug.newJoiner.html" />
-      <item itemvalue="JavaScript Debug.newJoiner.html (1)" />
       <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.index" />
+      <item itemvalue="Python.excel" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.index" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="JavaScript Debug.newJoiner.html (1)" />
-        <item itemvalue="JavaScript Debug.newJoiner.html" />
+        <item itemvalue="Python.index" />
+        <item itemvalue="Python.excel" />
+        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -406,203 +296,54 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="18983000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2746781" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32771084" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32891566" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/plugin/datatables/extensions/Buttons/js/buttons.html5.js" />
-    <entry file="file://$PROJECT_DIR$/assets/plugin/RWD-table-pattern/js/rwd-table.js" />
-    <entry file="file://$PROJECT_DIR$/assets/scripts/horizontal-menu.js" />
-    <entry file="file://$PROJECT_DIR$/chart-flot.html" />
-    <entry file="file://$PROJECT_DIR$/tables-editable.html" />
-    <entry file="file://$PROJECT_DIR$/assets/plugin/RWD-table-pattern/js/rwd-table.min.js" />
-    <entry file="file://$PROJECT_DIR$/ui-modals.html" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/newJoiner.html" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946">
-          <caret line="796" column="4" selection-start-line="796" selection-start-column="4" selection-end-line="796" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/test.txt" />
-    <entry file="file://$PROJECT_DIR$/backend/main.py" />
-    <entry file="file://$PROJECT_DIR$/backend/resource/Index/Index.py" />
-    <entry file="file://$PROJECT_DIR$/backend/resource/Index/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/backend/resource/selenium/index.py" />
-    <entry file="file://$PROJECT_DIR$/backend/resource/excel/excel.py" />
-    <entry file="file://$PROJECT_DIR$/resource/excel/test.txt" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scriptfile/GenerateTopCalls/GenerateTopCallsTemplate.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/excel/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/Index/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/Index/Index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/script/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/tools/tools.py" />
-    <entry file="file://$PROJECT_DIR$/resources/misc_report_data/misc_report_data.py" />
-    <entry file="file://$PROJECT_DIR$/resources/misc_report_data/custom_misc_report.py" />
-    <entry file="file://$PROJECT_DIR$/resources/setup.py" />
-    <entry file="file://$PROJECT_DIR$/resource/script/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/intranet.py" />
-    <entry file="file://$PROJECT_DIR$/resources/EnvironmentSelector.py" />
-    <entry file="file://$PROJECT_DIR$/GenerateTopAPACCallsTemplate/lib/google_api_mod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/email_templates.py" />
-    <entry file="file://$USER_HOME$/PycharmProjects/capture/venv/lib/python3.7/site-packages/selenium/webdriver/chrome/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="77" column="55" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/capture/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="136" column="31" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateTopAPACCallsTemplate/venv/bin/pip">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateTopAPACCallsTemplate/resources/tools/tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/GenerateTopAPACCallsTemplate/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-          <folding>
-            <element signature="e#17#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/selenium/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-344">
-          <caret line="106" column="20" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
-          <folding>
-            <element signature="e#44#74#0" expanded="true" />
-            <marker date="1561100274144" expanded="true" signature="5071:5239" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/excel/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="95" column="46" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="274" column="75" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/newJoiner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="600" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586485173074">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="600" y="370" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120/-1920.0.1920.1080@0.0.1792.1120" timestamp="1586485173074" />
+    <state x="-1243" y="154" key="#main_(1)" timestamp="1585723245772">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1243" y="154" key="#main_(1)/0.0.1792.1120/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1585723245772" />
+    <state width="1771" height="316" key="GridCell.Tab.0.bottom" timestamp="1586315008020">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1899" height="303" key="GridCell.Tab.0.bottom/0.0.1792.1120/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1585735588302" />
+    <state width="1771" height="316" key="GridCell.Tab.0.bottom/0.0.1792.1120/-1920.0.1920.1080@0.0.1792.1120" timestamp="1586315008020" />
+    <state width="1771" height="316" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585747412847" />
+    <state width="1899" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1585735901747" />
+    <state width="1771" height="316" key="GridCell.Tab.0.center" timestamp="1586315008018">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1899" height="303" key="GridCell.Tab.0.center/0.0.1792.1120/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1585735588301" />
+    <state width="1771" height="316" key="GridCell.Tab.0.center/0.0.1792.1120/-1920.0.1920.1080@0.0.1792.1120" timestamp="1586315008018" />
+    <state width="1771" height="316" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585747412846" />
+    <state width="1899" height="303" key="GridCell.Tab.0.center/0.23.1792.1097/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1585735901746" />
+    <state width="1771" height="316" key="GridCell.Tab.0.left" timestamp="1586315008018">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1899" height="303" key="GridCell.Tab.0.left/0.0.1792.1120/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1585735588300" />
+    <state width="1771" height="316" key="GridCell.Tab.0.left/0.0.1792.1120/-1920.0.1920.1080@0.0.1792.1120" timestamp="1586315008018" />
+    <state width="1771" height="316" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585747412845" />
+    <state width="1899" height="303" key="GridCell.Tab.0.left/0.23.1792.1097/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1585735901746" />
+    <state width="1771" height="316" key="GridCell.Tab.0.right" timestamp="1586315008019">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1899" height="303" key="GridCell.Tab.0.right/0.0.1792.1120/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1585735588301" />
+    <state width="1771" height="316" key="GridCell.Tab.0.right/0.0.1792.1120/-1920.0.1920.1080@0.0.1792.1120" timestamp="1586315008019" />
+    <state width="1771" height="316" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585747412846" />
+    <state width="1899" height="303" key="GridCell.Tab.0.right/0.23.1792.1097/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1585735901747" />
+    <state x="-988" y="179" key="SettingsEditor" timestamp="1585723751461">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-988" y="179" key="SettingsEditor/0.0.1792.1120/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1585723751461" />
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1586314219146">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.0.1792.1120/-1920.0.1920.1080@0.0.1792.1120" timestamp="1586314219146" />
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1585747004009" />
   </component>
 </project>

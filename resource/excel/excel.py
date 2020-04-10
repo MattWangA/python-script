@@ -8,7 +8,6 @@ import json
 from flask import request
 from io import StringIO
 from resource.selenium.index import selenium
-import logging
 urls = (
  '/rim_request','rim_request',
  '/rim_export','rim_export',
@@ -21,6 +20,7 @@ def write_excel(date = '2019-06-01'):
     # 实例话一个excel对象
     ex = xlwt.Workbook()
     web.header('Content-type', 'application/vnd.ms-excel')  # 指定返回的类型
+    web.header('Transfer-Encoding', 'chunked')
     web.header('Transfer-Encoding', 'chunked')
     web.header('Content-Disposition', 'attachment;filename="export.xls"')
     sheet = ex.add_sheet('Sheet1', cell_overwrite_ok=True)
@@ -48,7 +48,6 @@ def read_excel():
     list = []
     data = {}
     ID_list = log_read()
-    print(ID_list)
     for i in range(len(value)):
         # 对result的每个子元素作遍历，
         if len(value[i]) > 1 and value[i][8] != '' and time.strptime(date,"%Y-%m-%d") <= time.strptime(value[i][8],"%d/%m/%Y") :
@@ -58,18 +57,14 @@ def read_excel():
                 else:
                     value[i].insert(0,'open')
                 list.append(value[i])
-
     data = {"status":0,"data":list}
     return json.dumps(data)
-
 
 
 @excel.route('/searchdata' , methods = ['post'])
 def get_excel_data():
 
     if request.method == 'POST':
-
-
         google = googleSheet(sheetID=setting.google_sheet['new_joiner']['SAMPLE_SPREADSHEET_ID'],
                              range=setting.google_sheet['new_joiner']['SAMPLE_RANGE_NAME'])
         value = google.read_excel()
@@ -77,12 +72,9 @@ def get_excel_data():
         list = []
         data = {}
         ID_list =  request.get_json('data')['Idlist']
-        print(ID_list)
-
         for i in range(len(value)):
             # 对result的每个子元素作遍历，
-            print(value[i][0])
-            if value[i][0] in ID_list:
+            if value[i][19] in ID_list:
                 list.append(value[i])
         se = selenium()
         se.index(excel_list=list)

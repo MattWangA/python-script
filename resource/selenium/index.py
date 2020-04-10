@@ -7,30 +7,28 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 
 import xlrd
-#from app.config import config
+from app.config import setting
+from app.config import config
 
 class selenium:
     def __init__(self):
 
-        self.driver = webdriver.Remote(command_executor='10.20.11.53:4444/wd/hub',
-                                  desired_capabilities=DesiredCapabilities.CHROME)
+        self.driver = webdriver.Chrome(executable_path=setting.selemumdirver['path'])
 
     def index(self,excel_list):
-        username = 'matt.wang'
-        password = 'Mawa5749'
-        self.driver.get("https://intranet.thirdbridge.com/offspring/login")
+        username = setting.user['Username']
+        password = setting.user['Password']
+        self.driver.get(setting.url['address']['prod'])
         self.driver.find_element_by_id('email_address').send_keys(username)
         self.driver.find_element_by_id('password').send_keys(password)
         self.driver.find_element_by_id('login_query').click()
-
         time.sleep(5)
         element = self.driver.find_element_by_class_name('rollover-container-slide-right')
         action = ActionChains(self.driver)
         time.sleep(5)
         action.move_to_element(element).perform()
         time.sleep(5)
-
-        self.driver.find_element_by_xpath('//ul[@class="no-list rollover-item"]/a[9]').click()
+        self.driver.find_element_by_xpath('//ul[@class="no-list rollover-item"]/a[8]').click()
         time.sleep(2)
         for list in excel_list:
             self.driver.find_element_by_xpath(
@@ -41,21 +39,17 @@ class selenium:
             SurName = list[6]
             EmailAddress = list[10]
             PhoneNumber = list[12]
-            if len(list) >= 16:
-                MobilePhoneNumber = list[15]
-            else:
-                MobilePhoneNumber = ''
+            MobilePhoneNumber = list[15]
             OfficePhoneExtension = list[11]
             Password = list[13]
             StartDate = list[8]
             StartOp = list[8]
-            team_ID = teamID(list[3])
-            title_ID = TitleID(list[2])
+            team_ID = teamID(list[2])
+            title_ID = TitleID(list[1])
             Location = LocationID(list[14])
-            Position = RoleID(list[2], team_ID)
+            Position = RoleID(list[1], team_ID)
             Lan = Language(Location, team_ID)
             # 填写数据
-
             s1 = Select(self.driver.find_element_by_name('Title'))
             s2 = Select(self.driver.find_element_by_name('Position'))
             s3 = Select(self.driver.find_element_by_name('Status'))
@@ -65,7 +59,6 @@ class selenium:
             s7 = Select(self.driver.find_element_by_name('StaffGroup'))
             s8 = Select(self.driver.find_element_by_name('Profile'))
             s9 = Select(self.driver.find_element_by_name('Languages[]'))
-
             self.driver.find_element_by_name('HRID').send_keys(HRID)
             if type(title_ID) == int:
                 s1.select_by_index(title_ID)
@@ -75,7 +68,6 @@ class selenium:
                 s2.select_by_value(Position)
             else:
                 s2.select_by_index('0')
-
             self.driver.find_element_by_name('FirstName').send_keys(FirstName)
             self.driver.find_element_by_name('Surname').send_keys(SurName)
             self.driver.find_element_by_name('EmailAddress').send_keys(EmailAddress)
@@ -95,9 +87,6 @@ class selenium:
                 s9.select_by_value(i)
             time.sleep(5)
             self.driver.find_element_by_name('insert').click()
-
-
-
 
 
 def teamID(date):
@@ -143,15 +132,3 @@ def Language(location, teamID):
     return list
 
 
-def test():
-    driver = webdriver.Remote(command_executor='10.20.11.37:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
-    driver.get("https://www.baidu.com")
-
-
-
-
-
-if __name__ == '__main__':
-    selenium = selenium()
-    selenium.test()
-    # test()
